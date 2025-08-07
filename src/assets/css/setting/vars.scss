@@ -1,0 +1,39 @@
+:root {
+    --mainEng-font:'Cabin';
+    --mainNum-font:'LABDigital-Regular';
+    --mainKor-font:'Noto Sans KR';
+
+    --mainBg-color:#f2e5e8;
+    --subBg1:#1e252b;
+    --subBg2:#222f38;
+    --subBg3:#32424d;
+    --subBg4:#3d4b55;
+    --subBg5:#47565f;
+
+    --white:#fff;
+    --black:#1d2122;
+    --black1:#383f44;
+    --black2:#596064;
+    --black3:#b5c1c9;
+    --black4:#e0e0e0;
+
+    --red:#fb2e0c;
+    --green:#5dff0e;
+    --yellow:#fffd34;
+
+    font-family: var(--mainEng-font), var(--mainKor-font), var(--mainNum-font); 
+    font-size:16px;
+    line-height:1.6;
+    font-weight:400;
+
+    text-rendering:optimizeLegibility; //가독성 최적화 
+    font-synthesis: none; //italic, bold 지정폰트 없는 경우 대체 폰트 없이 스타일 유지
+    -webkit-font-smoothing:antialiased; // 글자 외곽 계단 현상 없이 깨끗이 표현, chrome, safafi
+    -moz-osx-font-smooting:grayscale;   //firefox, macOs
+    -webkit-text-size-adjust: 100%; //모바일에서 텍스트 크기 자동조정 하지 않고 지정 크기 그대로 
+
+    @media (max-width:800px){
+        font-size:14px;
+        line-height: 1.4;
+    }
+}
