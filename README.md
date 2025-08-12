@@ -1,12 +1,7 @@
-# React + Vite
+Landy Jung의 프로필/포트폴리오 사이트
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+10여년간 웹디자인/기획일을 하다가 출산, 육아로 멈췄던 시간을 다시 움직이기 위해 SBS컴퓨터아카데미에 등록
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+UI/UX 프론트엔드개발자 과정을 통해 
+2024년 12월부터 2025년 8월까지 약 9개월간 작업했던포트폴리오 사이트로 
+html, css, 반응형사이트제작, react, javascript등의 기술을 사용한 웹사이트를 나열하였음
